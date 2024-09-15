@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>service</title>
+
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div id="content">
+        <section id="services">
+            <h1>Services Section</h1>
+            <p>Here we describe the services we offer. We provide a variety of services tailored to your needs.</p>
+        </section>
+    </div>
+
+</body>
+<style>
+    /* Basic styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 4px 2px -2px gray;
+    z-index: 1000;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar ul li {
+    margin: 0 15px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    display: block;
+}
+
+/* Change color on hover */
+#navbar ul li a:hover {
+    background-color: #555;
+    color: #ffd700;
+    border-radius: 4px;
+}
+
+/* Change color on scroll */
+.scrolled {
+    background-color: #222;
+}
+
+/* Styling for content sections */
+#content {
+    margin-top: 60px; /* Adjust based on the height of the nav bar */
+    padding: 20px;
+}
+
+section {
+    padding: 100px 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    background-color: #f4f4f4;
+}
+
+section:nth-child(even) {
+    background-color: #e4e4e4;
+}
+
+</style>
+</html>
